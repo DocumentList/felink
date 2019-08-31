@@ -1,0 +1,395 @@
+@font-face {
+	font-family: 'iconfont';
+	src: url('../fonts/iconfont.eot');
+	src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), url('../fonts/iconfont.woff2') format('woff2'), url('../fonts/iconfont.woff') format('woff'), url('../fonts/iconfont.ttf') format('truetype'), url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+li {
+	list-style: none;
+}
+
+.nav-content {
+	width: 80%;
+	margin: 0 auto;
+}
+
+@media (min-width: 970px) {
+	.swiper-container {
+		width: 100%;
+		height: 753px;
+	}
+	.nav-content {
+		height: 80px;
+	}
+	.nav-x {
+		display: none;
+	}
+	.navC-right {
+		float: right;
+	}
+	.navC-left {
+		float: left;
+	}
+	.contentc {
+		background-image: url("../img/zm-b1-v10.png");
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.content-c {
+		background-image: url("../img/banner-main.png");
+		background-repeat: no-repeat;
+		height: 548px;
+		background-position: center;
+	}
+	.contentc2 {
+		background-image: url("../img/tq_b1.jpg");
+	}
+	.contentc3 {
+		background-image: url("../img/sp_b1.jpg");
+	}
+}
+
+@media(min-width: 501px) and (max-width: 969px) {
+	.swiper-container {
+		width: 100%;
+		height:600px;
+	}
+	.nav-content {
+		height: 145px;
+	}
+	.nav-x {
+		display: none;
+	}
+	.navC-right {
+		float: none;
+		margin: 0 auto;
+		width: 320px;
+	}
+	.navC-left {
+		float: none;
+		margin: 0 auto;
+		width: 146px;
+	}
+	.contentc {
+		background-image: url("../img/zm-b1-v10.png");
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.content-c {
+		background-image: url("../img/banner-main.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 400px;
+		background-size: 1000px 400px;
+	}
+	.contentc2 {
+		background-image: url("../img/tq_b1.jpg");
+	}
+	.contentc3 {
+		background-image: url("../img/sp_b1.jpg");
+	}
+}
+
+@media (max-width:500px) {
+		.swiper-container {
+		width: 100%;
+		height:600px;
+	}
+	.nav-po {
+		display: none;
+	}
+	.contentc {
+		background-image: url('../img/zm-b1-sm1.png');
+		background-repeat: no-repeat;
+		height: 600px;
+		background-position: center;
+		background-size: 1700px 600px;
+	}
+	.swiper-button-next {
+		display: none;
+	}
+	.swiper-button-prev {
+		display: none;
+	}
+	.contentc2 {
+		background-image: url("../img/tq_b1_sm.jpg");
+	}
+	.contentc3 {
+		background-image: url("../img/sp_b1_sm.jpg");
+	}
+}
+
+.navC-ul {
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	color: #1c1c1c;
+	font-size: 20px;
+	font-weight: -1;
+}
+
+.navC-ul li {
+	float: left;
+	margin-right: 40px;
+	line-height: 85px;
+	position: relative;
+}
+
+.navC-left img {
+	margin-top: 25px;
+	width: 146px;
+}
+
+.position-big ul {
+	position: absolute;
+	left: -40px;
+	top: 78px;
+	background-color: #ffffff;
+	width: 188px;
+	font-size: 13px;
+	line-height: 36px;
+	color: #777777;
+	z-index: 500;
+	/*display: none;*/
+}
+
+.position-big ul li {
+	line-height: 30px;
+}
+
+.navC-ul li:nth-of-type(4) {
+	margin-right: 0px;
+}
+
+.navC-ul>li:hover {
+	cursor: pointer;
+	color: #3c79e7;
+}
+
+.position-big {
+	display: none;
+}
+
+.navC-ul>li:hover .position-big {
+	display: block;
+	cursor: pointer;
+}
+
+.position-big ul li:hover {
+	color: red;
+}
+
+.nav-x {
+	width: 100%;
+	height: 50px;
+	background-color: #2b3643;
+	overflow: hidden;
+}
+
+.nav-content1 {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.one {
+	float: left;
+	width: 48px;
+	height: 48px;
+	background-color: #252e3a;
+	text-align: center;
+}
+
+.one span {
+	color: white;
+	font-weight: bold;
+	line-height: 48px;
+	font-size: 20px;
+}
+
+.one span:hover {
+	cursor: pointer;
+}
+
+.two {
+	float: right;
+}
+
+.icon-one {
+	display: none;
+}
+
+.two img {
+	width: 83px;
+	height: 17px;
+	margin-top: 15px;
+}
+
+.ull3 {
+	position: fixed;
+	z-index: 100;
+	background: rgba(43, 54, 67, 0.97);
+	transition: 0.3s;
+	color: #a5bfd2;
+	box-shadow: 5px 0 5px 0 rgba(0, 0, 0, 0.1);
+	left: 0px;
+	top: 50px;
+	width: 240px;
+	bottom: 0px;
+	display: none;
+}
+
+.navC-ul1 {
+	padding-left: 0;
+}
+
+.navC-ul1 li {
+	line-height: 50px;
+	padding-left: 40px;
+}
+
+.position-big2 {
+	display: none;
+	margin-left: -80px;
+	padding-left: 0px;
+}
+
+.position-big2 li {
+	padding-left: 103px;
+}
+
+.navC-ul1 li:hover {
+	background-color: #38a99c;
+	color: white;
+	font-weight: bold;
+}
+
+.navC-ul1>li:nth-of-type(1) {
+	background-color: #38a99c;
+	color: white;
+	font-weight: bold;
+}
+
+.sub-icon {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-left: 123px;
+	border: 1px solid white;
+	line-height: 30px;
+	text-align: center;
+	transition: 0.5s;
+}
+
+
+.content-top {
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid transparent;
+	text-align: center;
+}
+
+.conc-bgi {
+	background-image: url("../img/zm_logo.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 66px;
+	margin: 0 auto;
+	margin-top: 34px;
+	background-position: center;
+}
+
+.content-top>p {
+	font-size: 22px;
+	font-family: 'Microsoft YaHei', sans-serif;
+	margin-top: 7px;
+	color: #FFF;
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+.dasd {
+	width: 100%;
+	height: 300px;
+	background-color: darksalmon;
+}
+
+.inps-white {
+	width: 290px;
+	height: 44px;
+	line-height: 44px;
+	background-color: white;
+	margin: 0 auto;
+	font-size: 22px;
+	color: #09a7f1;
+	font-family: "Microsoft YaHei";
+	overflow: hidden;
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+
+.p-inps {
+	float: left;
+	margin-left: 46px;
+}
+
+.inps-white img {
+	float: right;
+	margin-top: 13px;
+	margin-right: 22px;
+}
+
+.inps-white span:nth-of-type(1) {
+	font-weight: 100;
+}
+
+.inps-white span:nth-of-type(2) {
+	font-weight: 300;
+}
+
+.contentc2 {
+	/*background-image: url("../img/tq_b1.jpg");*/
+	background-repeat: no-repeat;
+	/*	height: 753px;*/
+	background-position: center;
+	background-size: cover;
+}
+
+.conc-bgi2 {
+	background-image: url("../img/tq_logo1.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 66px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background-position: center;
+}
+
+.contentc3 {
+	/*	background-image: url("../img/sp_b1.jpg");*/
+	background-repeat: no-repeat;
+	/*	height: 753px;*/
+	background-position: center;
+	background-size: cover;
+}
+
+.conc-bgi3 {
+	background-image: url("../img/sp_logo_20160722.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 53px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background-position: center;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+}
