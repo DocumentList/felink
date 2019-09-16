@@ -53,6 +53,40 @@ $(function(){
       loop : true,
     });
     
+    $('.ull-li1 li a').hover(function(){
+    	
+    	$(this).css({
+    		'margin-left':'10px',
+    		'transition':'1s'
+    	})
+    	
+    },function(){
+    	$(this).css({
+    		'margin-left':'',
+    		'transition':'1s'
+    	})
+    })
+    
+    $('.top-fix').click(function(){
+    	
+    	$('html,body').animate({'scrollTop':0}
+    	,1000)
+    	
+    })
+    
+     $(window).scroll(function(){
+     	var h= $(window).scrollTop();
+    	
+    	if(h>400){
+    		$('.top-fix').show();
+    	}else{
+    		$('.top-fix').hide();
+    	}
+     })
+     
+     
+   		
+	
 	
 	
 	
