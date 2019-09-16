@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+body{
+	width: 1366px;
+}
+.header{
+	width: 100%;
+	background: url("../img/topbar-bg.jpg") no-repeat;
+	background-size: cover;
+}
+.headerCon{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+
+.heaLeft{
+	float: left;
+    width: 198px;
+    height: 80px;
+    background: url("../img/logo1.png") no-repeat center center;
+    background-size: 197px 53px;
+}
+
+.heaRight{
+	float: right;
+	position: relative;
+}
+.name-hea{
+	margin-top: 10px;
+	overflow: hidden;
+	font-size: 18px;
+	color: white;
+	height: 60px;
+    line-height: 60px;
+}
+.name-hea li{
+	float: left;
+	margin-right: 20px;
+}
+.name-img{
+	position: absolute;
+	overflow: hidden;
+	top: 51px;
+	left: -5px;
+}
+.name-img li{
+	margin-right: 22px;
+	margin-left: 24px;
+	float: right;
+	display: none;
+}
+
+
